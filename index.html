@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: rgb(20, 84, 203);
+      padding: 10px;
+      color: white
+    }
+
+    .header h2 {
+      margin-bottom: 5px;
+    }
+
+    .skill-container {
+      margin-bottom: 30px;
+    }
+
+    .skill-project-container {
+      padding: 15px;
+    }
+
+    .skill-project-container h2 {
+      margin-bottom: 15px;
+      color: rgb(20, 84, 203);
+    }
+
+    .skill-project-container input {
+      width: 500px;
+      padding: 10px;
+      background-color: rgb(114, 255, 255);
+      border: none;
+    }
+
+    .contact-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .contact-section h2 {
+      color: rgb(20, 84, 203);
+    }
+
+    .contact-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 250px;
+      /* background-color: #523a3a; */
+    }
+
+    .contact-container>* {
+      margin: 5px;
+      padding: 5px;
+    }
+
+    .contact-container input {
+      border: 2px solid rgb(238, 238, 238);
+      padding: 5px;
+      width: 100%;
+    }
+
+    .contact-container button {
+      width: 100%;
+    }
+
+    button {
+      /* width: 200px; */
+      background-color: rgb(20, 84, 203);
+      color: white;
+      /* border: px solid rgb(238, 238, 238); */
+    }
+
+    .porject-desc-container {
+      padding: 15px 10px;
+      border: 2px solid rgb(238, 238, 238);
+    }
+
+    .porject-desc-container h3 {
+      color: rgb(20, 84, 203);
+      margin-bottom: 10px;
+    }
+
+    .porject-desc-container p {
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 12px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="header">
+    <center>
+      <h2>
+        Vinay Partap Singh
+      </h2>
+      <p>
+        Passionate about learning web development.
+      </p>
+    </center>
+  </div>
+  <div class="container">
+    <div class="skill-project-container">
+      <div class="skill-container">
+        <h2>Skills</h2>
+        <input type="text" class="inputBox" value="C++ | C | HTML | CSS |  JavaScript | Python | SQL">
+      </div>
+      <div class="project-container">
+        <h2>Projects</h2>
+        <div class="porject-desc-container">
+          <h3>Online music streamin Platform</h3>
+          <p>
+            Developed a user-friendly website selling music, playlists, and streamless access to user-submitted lyrics
+            on their Spotify accounts using Beat and the Spitty API.
+          </p>
+          <h3>Sorting Visualizer App</h3>
+          <p>
+            Created a Sorting Visualizer Web App using HTML, CSS, and JavaScript to demonstrate and visualize various
+            sorting algorithms like Bubble Sort, Selection Sort, Insertion Sort, and Quick Sort.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="contact-section">
+      <div class="contact-container">
+        <h2>Contact</h2>
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Your Email">
+        <input type="text " placeholder="Your Message">
+        <button type="submit">Send Message</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
